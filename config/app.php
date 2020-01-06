@@ -176,7 +176,8 @@ return [
         App\Providers\RouteServiceProvider::class,
         Cartalyst\Stripe\Laravel\StripeServiceProvider::class,
         RealRashid\SweetAlert\SweetAlertServiceProvider::class,
-        Intervention\Image\ImageServiceProvider::class
+        Intervention\Image\ImageServiceProvider::class,
+
 
     ],
 
@@ -230,7 +231,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Stripe' => Cartalyst\Stripe\Laravel\Facades\Stripe::class,
         'Alert' => RealRashid\SweetAlert\Facades\Alert::class,
-        'Image' => Intervention\Image\Facades\Image::class
+        'Image' => Intervention\Image\Facades\Image::class,
 
     ],
 
